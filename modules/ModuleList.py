@@ -1,6 +1,7 @@
 
 fromSource = [
     "SerialServer",
+    "ServosModule",
     "TTOS"
 ]
 

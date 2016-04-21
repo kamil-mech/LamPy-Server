@@ -43,6 +43,7 @@ def run (self):
             try:
                 r_obj = jsonpickle.decode(x)
                 addToMemory(self, r_obj['tag'], r_obj['data'])
+                ser.flushInput()
             except:
                 pass
 
@@ -53,5 +54,5 @@ def addToMemory(self, key, obj):
 
 
 def checkMemory(self, key):
-    print 'getting ' + key
+    # print 'getting ' + key
     return self.getInputs()[key]

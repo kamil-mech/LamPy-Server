@@ -94,10 +94,11 @@ def run (self):
 	smemory =0
 	cmemory =0
 	
-        say("hello, i, am, a, ",self)
+        say("hello, i, ",self)
+        say("am, a, ",self)
         say("lamp, and, a, robot,",self)
         say(" i, am, a, lampbot,",self)
-        
+
         # main loop
         while 1:
                 # put your logic here
